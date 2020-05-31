@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="37699" started-at="2020-05-31T01:05:18Z" finished-at="2020-05-31T01:05:56Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="37699" started-at="2020-05-31T01:05:18Z" finished-at="2020-05-31T01:05:56Z">
+      <class name="walshIntegrated.testcases.CreateDepartmentScenarios1">
+        <test-method status="PASS" signature="setupReport()[pri:0, instance:walshIntegrated.testcases.CreateDepartmentScenarios1@7bb58ca3]" name="setupReport" is-config="true" duration-ms="146" started-at="2020-05-31T01:05:18Z" finished-at="2020-05-31T01:05:18Z">
+        </test-method> <!-- setupReport -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:walshIntegrated.testcases.CreateDepartmentScenarios1@7bb58ca3]" name="setUp" is-config="true" duration-ms="17379" started-at="2020-05-31T01:05:18Z" finished-at="2020-05-31T01:05:36Z">
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyPage()[pri:0, instance:walshIntegrated.testcases.CreateDepartmentScenarios1@7bb58ca3]" name="verifyPage" duration-ms="69" started-at="2020-05-31T01:05:36Z" finished-at="2020-05-31T01:05:36Z">
+        </test-method> <!-- verifyPage -->
+        <test-method status="PASS" signature="tearDownReport(org.testng.ITestResult)[pri:0, instance:walshIntegrated.testcases.CreateDepartmentScenarios1@7bb58ca3]" name="tearDownReport" is-config="true" duration-ms="444" started-at="2020-05-31T01:05:36Z" finished-at="2020-05-31T01:05:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult: verifyPage STATUS:SUCCESS METHOD:CreateDepartmentScenarios1.verifyPage()[pri:0, instance:walshIntegrated.testcases.CreateDepartmentScenarios1@7bb58ca3]]
+]]>
+              </value>
+            </param>
+          </params>
+        </test-method> <!-- tearDownReport -->
+        <test-method status="PASS" signature="TC_01_Department_Create()[pri:1, instance:walshIntegrated.testcases.CreateDepartmentScenarios1@7bb58ca3]" name="TC_01_Department_Create" duration-ms="19532" started-at="2020-05-31T01:05:36Z" depends-on-methods="walshIntegrated.testcases.CreateDepartmentScenarios1.verifyPage" finished-at="2020-05-31T01:05:56Z">
+        </test-method> <!-- TC_01_Department_Create -->
+        <test-method status="PASS" signature="tearDownReport(org.testng.ITestResult)[pri:0, instance:walshIntegrated.testcases.CreateDepartmentScenarios1@7bb58ca3]" name="tearDownReport" is-config="true" duration-ms="79" started-at="2020-05-31T01:05:56Z" finished-at="2020-05-31T01:05:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult: TC_01_Department_Create STATUS:SUCCESS METHOD:CreateDepartmentScenarios1.TC_01_Department_Create()[pri:1, instance:walshIntegrated.testcases.CreateDepartmentScenarios1@7bb58ca3]]
+]]>
+              </value>
+            </param>
+          </params>
+        </test-method> <!-- tearDownReport -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:walshIntegrated.testcases.CreateDepartmentScenarios1@7bb58ca3]" name="tearDown" is-config="true" duration-ms="177" started-at="2020-05-31T01:05:56Z" finished-at="2020-05-31T01:05:56Z">
+        </test-method> <!-- tearDown -->
+      </class> <!-- walshIntegrated.testcases.CreateDepartmentScenarios1 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

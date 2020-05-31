@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" parallel="none">
+  <test name="Default test(failed)" parallel="none" preserve-order="true">
+    <classes>
+      <class name="walshIntegrated.testcases.CreateDepartmentScenarios1">
+        <methods>
+          <include name="verifyPage"/>
+          <include name="setUp"/>
+          <include name="setupReport"/>
+          <include name="TC_01_Department_Create"/>
+        </methods>
+      </class> <!-- walshIntegrated.testcases.CreateDepartmentScenarios1 -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
