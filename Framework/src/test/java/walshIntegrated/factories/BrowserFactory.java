@@ -24,7 +24,7 @@ public class BrowserFactory {
 		
 		if(browser.equalsIgnoreCase("Chrome"))
 		{
-			System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+"/Drivers/chromedriver-2.36/chromedriver");
+			System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+"/Drivers/chromedriver1");
 			//System.setProperty("webdriver.chrome.driver", "/Users/sarika/eclipse-workspace/chromedriver-2.36/chromedriver");
 			driver=new ChromeDriver();
 		}
